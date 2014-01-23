@@ -14,4 +14,4 @@ Some context
   for f in *.wiki; do ../conv.coffee $f | pandoc --from html --to markdown --no-wrap | sed 's/ {.prettyprint}/php/g' > ../sabredavwiki.wiki/$f.md; done
 ```
 
-* pushed code on github and shared with @evert
+* pushed code on github and added https://github.com/evert as collaborator on repo
