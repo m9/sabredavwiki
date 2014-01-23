@@ -13,3 +13,5 @@ Some context
   cd sabredav.wiki
   for f in *.wiki; do ../conv.coffee $f | pandoc --from html --to markdown --no-wrap | sed 's/ {.prettyprint}/php/g' > ../sabredavwiki.wiki/$f.md; done
 ```
+
+* pushed code on github and shared with @evert
